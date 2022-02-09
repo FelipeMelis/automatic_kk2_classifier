@@ -64,3 +64,13 @@ optional arguments:
                         tax_hierarchy: P, C, O, F, G, S, S1
   -cpus CPU_NUMBER, --cpu_number CPU_NUMBER
                         Number of cpus to be used
+```
+### Dockerfile example
+Add the following lines for each new database
+
+```
+WORKDIR /root/kraken2
+RUN wget <link_to_kraken2_index_tar.gz>
+RUN mkdir <kraken2_index_folder_name> 
+RUN tar -xzvf <kraken2_index_tar.gz> -C <kraken2_index_folder_name>
+```
