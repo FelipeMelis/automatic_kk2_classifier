@@ -39,7 +39,7 @@ https://drive.google.com/drive/folders/1zb2SZ8-lsBAuc-xGdSo-4M2066W3Zy2D
         "silva": "/root/kraken2/16S_SILVA138_k2db",
         "greengenes": "/root/kraken2/16S_Greengenes_k2db",
         "rdp": "/root/kraken2/16S_RDP_k2db",
-        "viral": "/root/kraken2/k2_viral" #New database
+        "viral": "/root/kraken2/k2_viral" # new database
     }
 
 3.- The database will appear at option `-d` and will be ready to use with that name
