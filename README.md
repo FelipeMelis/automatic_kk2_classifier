@@ -29,7 +29,8 @@ https://drive.google.com/drive/folders/1zb2SZ8-lsBAuc-xGdSo-4M2066W3Zy2D
 ### Example
 
 1. Download Viral database to `/root/kraken2/` and extract to `k2_viral` 
-![](../../../../../../var/folders/2t/0h151sc57ls332bnhmr44yvm0000gn/T/TemporaryItems/NSIRD_screencaptureui_N7uRnL/Screen Shot 2022-02-09 at 09.33.32.png)
+<img width="782" alt="Screen Shot 2022-02-09 at 09 50 17" src="https://user-images.githubusercontent.com/15635619/153204503-597251b7-daee-4b70-bb60-0a5a6d336e23.png">
+
 
 2.- Modify `config.py` and add `"viral": "/root/kraken2/k2_viral"` to the python dict
 
