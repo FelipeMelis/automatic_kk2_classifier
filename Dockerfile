@@ -37,4 +37,5 @@ RUN rm minikraken2_v1_8GB_201904.tgz
 # Setup env
 WORKDIR /root/
 ADD run_classifier.py /usr/bin/
+ADD config.py /usr/bin/
 ADD test.tar.gz /root
